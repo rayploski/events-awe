@@ -1,0 +1,12 @@
+LICENSE.txt
+NOTICE.txt
+Gemfile*
+Rakefile
+Guardfile
+*.sh
+.DS_Store
+README.md
+CONTRIBUTING.md
+LICENSE.md
+TODO.txt
+

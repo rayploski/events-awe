@@ -1,0 +1,19 @@
+!!!
+%html
+  %head
+    %title
+      A Simple Preview of #{page.name}
+    %link{ :rel=>'stylesheet', :type=>'text/css', :href=>'/stylesheets/screen.css', :media=>'screen, projection' }
+    /[if lt IE 8]
+      %link{ :rel=>'stylesheet', :type=>'text/css', :href=>'/stylesheets/ie.css', :media=>'screen, projection' }
+      %link{ :rel=>"stylesheet", :type=>"text/css", :href=>"https://static.jboss.org/theme/css/magnolia/stkdefault-styles.css", :media=>"screen, projection"}
+      %link{ :rel=>"stylesheet", :type=>"text/css", :href=>"https://static.jboss.org/theme/css/common/org_common.css", :media=>"screen, projection"}
+      %link{ :rel=>"stylesheet", :type=>"text/css", :href=>"https://static.jboss.org/css/magnolia/styles.css", :media=>"screen, projection"}
+      %link{ :rel=>"stylesheet", :type=>"text/css", :href=>"https://static.jboss.org/theme/css/magnolia/project.css", :media=>"screen, projection"}
+      %link{ :rel=>"stylesheet", :type=>"text/css", :href=>"https://static.jboss.org/theme/css/magnolia/clearspace_common.css", :media=>"screen, projection"}
+      %link{ :rel=>"stylesheet", :type=>"text/css", :href=>"https://static.jboss.org/theme/css/magnolia/wide.css", :media=>"screen, projection"}
+      %link{ :rel=>"stylesheet", :type=>"text/css", :href=>"https://static.jboss.org/theme/css/magnolia/small.css", :media=>"screen, projection"}
+      %link{ :rel=>"stylesheet", :type=>"text/css", :href=>"https://fonts.googleapis.com/css?family=Cabin:400", :media=>"screen, projection"}
+  %body#community
+    #main
+      ~ content

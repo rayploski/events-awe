@@ -1,0 +1,21 @@
+---
+layout: magnolia
+name: Devoxx BE 2014 Speakers
+---
+-# Begin Session Loop
+- site.devoxx2014.each do |day|
+  - day.sessions.each do |session|
+    - if "#{session.confirmed}" == "true"
+      - session.speakers.each do |s|
+        - if "#{s.bio}" != "{}"
+          %h3 #{s.speaker}
+          %img{:src=>"#{s.image}", :style=>"float:left; margin-right: 10px;height:73px;width:73px;"}
+          %p #{s.bio}
+          %div{:style=>"clear:both;"}
+          %p
+            %a.twitter-follow-button{:href=>"https://twitter.com/#{s.twitter}"}Follow #{s.twitter}
+            :javascript
+              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+          %br
+          %hr
+          %br

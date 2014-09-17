@@ -1,0 +1,170 @@
+- date: "Monday, 11 November"
+  sessions:
+  - title: "Nuts and Bolts of WebSocket"
+    abstract: "WebSocket provides a rich and powerful communication channel where client and server can communicate with each other in a standard way. JavaScript API in Web browsers is also quite prevalent making it easier to support it.<br>Would you like to learn how to build WebSocket applications in Java ? How and where do you deploy these applications ? What are the concerns around firewall, DNS and routers ? How do you debug message exchanges ? What to do if WebSocket is not supported in the browser or app server ? Debugging and Production tips ? Learn about phantom WebSockets.<br>This university session is for you! Here is what we'll cover:<ul><li>Introduction to WebSocket</li><li>WebSocket using JSR 356</li><li>WebSocket using Undertow/WildFly</li><li>WebSocket using Atmosphere</li><li>Surviving Firewall and Proxy</li><li>WebSocket Debugging</li><li>WebSocket Production Tips</li></ul>"
+    time: 09:30 - 12:30
+    speakers:
+      - speaker: Arun Gupta
+        bio: Arun Gupta is Director of Developer Advocacy at Red Hat and focuses on JBoss Middleware. A founding member of the Java EE team at Sun Microsystems, he led a cross-functional team at Oracle to drive the global launch of the Java EE 7 platform through strategy, planning, and execution of content, marketing campaigns, and program. Arun has extensive speaking experience in ~40 countries on myriad topics and is a JavaOne Rockstar. He also founded the Devoxx4Kids chapter in the USA and continues to promoting technology education amongst kids. An author of a best-selling book, an avid runner, a globe trotter, a Java Champion, JUG leader, he is easily accessible at @arungupta.
+        image: https://lh6.googleusercontent.com/-gon2JtIuiqI/AAAAAAAAAAI/AAAAAAAAmu8/ejVmjY9FgKY/photo.jpg
+        twitter: arungupta
+    location: Room 5
+    confirmed: true
+
+  - title:  Devoxx4Kids Workshops Lab
+    abstract: "Devoxx4Kids is a global effort to inspire teenagers and kids in computer programming, robotics, and electronics. This is achieved by delivering workshops on Scratch, Minecraft modding, Java programming, Greenfoot, Raspberry Pi, Arduino, NAO robots, and a variety of other topics. This hands-on lab shares the materials used in these workshops and provides guidance on how to use them. The attendees will experience several simulated workshops and learn tips on how to allocate time for different activities to provide a joyful and fun experience. The lab also provides tips on how to open a local Devoxx4Kids chapter. If you are a parent or would like to run these workshops in your local neighborhood, this workshop is for you!"
+    time: 09:30 - 12:30
+    speakers:
+        - speaker: Arun Gupta
+    location: BOF 1
+    confirmed: true
+
+  - title: Productive Java EE and HTML5 development with Eclipse
+    abstract:  "During this session, we will show how developers can be productive when building Java EE 7 + HTML5 applications in Eclipse. We will see how the tooling in Eclipse helps us scaffolding from an existing database using JPA, then exposing the entities via JAX-RS and integrated Forge tooling. Some advanced features of JAX-RS 2.0 such as filters and support for bean validation that are recently added will also be shown. Finally the content will be shown in the browser using HTML5 + AngularJS. If time (and network) allows, the application will even be deployed on a PaaS, all without leaving the IDE.<br/>As any good, self-respecting 'Tools In Action' session, you should expect no slide, only coding and talking."
+    speakers:
+      - speaker: Xavier Coulon
+        bio: Xavier Coulon has been a Java developer for several years, and since he joined JBoss back in late 2011, he has been working on the OpenShift, JAX-RS and LiveReload components of JBoss Tools and JBoss Developer Studio. More recently, he also discovered the magic of Awestruct to write static websites with the freedom of lightweight markup languages.
+        image: https://pbs.twimg.com/profile_images/913891802/Portrait_400x400.jpg
+        twitter: xcoulon
+      - speaker: Arun Gupta
+    location: Room 8
+    time: 16:45 - 17:15
+    confirmed: true
+
+  - title: "OAuth2 for native apps"
+    abstract: "Do you want to build a cool iOS/Android app to share your photos on Twitter, Facebook or Google+? If so, you will need to authenticate through OAuth2. Instead of using their own authentication schemes, most providers choose to implement OAuth2, the latest revision of the OAuth protocol. It gives users a secure way to talk to their services, but more importantly, allows users to safely authorise access to their data from third-party services without giving them their credentials.<br/>If you think security topic is hard to tackle, join me in this live coding session. We'll delve deep into OAuth2 protocol and see the challenges to overcome from a native app perspective: embedded web view vs external browser, URL schema for callback, local storage for tokens, refresh access tokens transparently...<br/>After this session, OAuth2 will have no secret to you!"
+    speakers:
+        - speaker: Corinne Krych
+          bio: "Dev for over 15 years (when you like it you don't really count), I never go too far from coding. Open minded and curious, I like to try new stuff and chat about it; Polyglot by heart (going beyond the JVM) and addicted to clean code, I like to share and exchange ideas in local user groups or conferences. Those days, mobile is my playground, AeroGear my open source family. iOS is my platform by heart as my commits will tell."
+          image: https://pbs.twimg.com/profile_images/1804433301/corinne_1__400x400.png
+          twitter: corinnekrych
+    location: Room 9
+    time: 17:25 - 17:55
+    confirmed: true
+
+  - title: "Give yourself to the bash side: command line tools for busy developers"
+    abstract: "A few years ago, I became a command line nuts. It came gradually. I started to add one, two command line tools. Then customise the shell here and there. Next thing you know, I barely used graphical UIs. And it felt good.<br/>I brought back balance to the force now and use the mouse here and there but I kept my useful command line tools and tricks and I am a better developer for it.<br/>Let me recount my journey and come learn useful tools, tips and workflow improvements for busy developers. Want samples: speed up pull request handling, share the same env across computers and servers, edit files and repeat modifications at the speed of light, define terminal tabs per work context...<br/>Some of the tools explored: #bash #rsync #git #tig #tmux #dotfiles #asciidoc #encfs #brew #mutt #weechat"
+    speakers:
+      - speaker: Emmanuel Bernard
+        bio: "Emmanuel Bernard is data platform architect for the JBoss portfolio at Red Hat. He oversees data related projects and in particular the Hibernate portfolio where he came from.<br/>Emmanuel has lead the JPA implementation of Hibernate ORM, founded and lead Hibernate Search, Hibernate Validator. His latest project endeavour is Hibernate OGM but he also contributes to Ceylon, Awestruct and a few other projects in his spare time.<br/>Emmanuel is a member of the JPA 2.1 expert group and the spec lead of Bean Validation. He is also founder and co-host of two podcasts: JBoss Community Asylum and Les Cast Codeurs Podcast."
+        image: https://pbs.twimg.com/profile_images/378800000623961945/dd9637cb75e92e91ede34ef91dd26f89_400x400.jpeg
+        twitter: emmanuelbernard
+    location: Room 4
+    time: 18:05 - 18:35
+    confirmed: true
+
+  - title: Mastering xPaaS - get down and dirty in the OpenShift Cloud
+    abstract: "Ever wondered about all the new Cloud offerings out there? What is a PaaS? What is this thing Garner keeps calling xPaaS? How can I as a beginner get started in a few hours?<br/>Whether your business is running on applications based on Java EE6, PHP or Ruby, the cloud is turning out to be the perfect environment for developing your business. There are plenty of clouds and platform-as-a-services to choose from, but where to start?<br/>Join us for three action-packed hours of power where we'll show you how to deploy your existing application written in the language of your choice - Java, Ruby, PHP, Perl or Python, with the project of your choice - jBPM, Ceylon, Switchyard, Drools Planner, Aerogear, GateIn, Drools (Rules / BPM) and more deployed into the OpenShift PaaS in just minutes. All this and without having to rewrite your app to get it to work the way the cloud provider thinks your app should work.<br/>If you want to learn about xPaaS and see how investing just a few hours of your time can change everything you thought you knew about putting your business applications in the cloud, this session is for you!"
+    speakers:
+        - speaker: Eric Schabell
+          bio: Eric D. Schabell is the JBoss technology evangelist for Integration and BPM products at Red Hat. He is responsible for various outbound technical aspects of promoting JBoss Enterprise Middleware integration products and services, has traveled the world speaking at conferences, and is the author of The OpenShift Primer. He has been working within software development since 1998 for many different enterprises. Follow this blog at http://schabell.org.
+    location: TBD
+    time: TBD
+    confirmed: false
+
+- date: "Tuesday, 12 November"
+  sessions:
+  - title: "Three hours to build a Java EE application"
+    abstract: "In this hands-on lab, attendees will create a Java EE application that uses most of the Java EE specifications (JPA, Bean Validation, CDI, JSF, JAX-RS...) and test it (JUnit and Arquillian). From a white sheet, JBoss Forge will help you to quick start it and add extra features to, finally, end-up with a fully functional application."
+    speakers:
+      - speaker: Koen Aers
+        bio: Koen is has a long track record working on the JBoss Tools project. He currently is responsible for the Eclipse integration of both the JBoss Forge project and the Hibernate Tools projects. Before that he was responsible for the Eclipse support and the different workflow editors of the jBPM project. Koen graduated as a Civil Engineer from the Belgian Royal Military Academy and obtained an additional Master's Degree in Information Technology at the Brussels Free University. Before joining JBoss and Red Hat, he worked respectively in the IT department of the Belgian Army and as a software consultant. Koen is a regular speaker at public events and conferences.
+        image: https://avatars1.githubusercontent.com/u/621954?v=2&s=460
+        twitter: koentsje
+
+      - speaker: Lincoln Baxter III
+        bio: "Creator of PrettyFaces - Url Rewriting for JSF, PrettyTime - Social-style date & time formatting for Java, and a community contributor to the JSF2 Expert Group; his latest project is ScrumShark, an open-source agile project management tool.<br/>Beginning his career in C, C++ development for hardware signal testing automation, Lincoln soon moved on to Perl, dynamic programming languages, artificial intelligence and, more recently - web application frameworks such as Java Server Faces and Groovy on Grails for financial and small business solutions.<br/>When he is not swimming, running, or playing Ultimate Frisbee, Lincoln is focused on improving the openness of Java, the Java Community Process(JCP), and bringing the J2EE platform to small businesses and freelancers."
+        image: https://pbs.twimg.com/profile_images/1827851258/IMG_8886_modified_400x400.jpg
+        twitter: lincolnthree
+    location: BOF 1
+    time: 09:30 - 12:30
+    confirmed: true
+
+  - title: "Going farther with CDI 1.2"
+    abstract: "In less than five years of existence, Contexts and Dependency Injection (CDI) has become one of the major specifications in Java EE. CDI 1.1 and 1.2 proved to be the best solutions to naturally extend Java EE 7. In this session, the co-spec lead of CDI covers advanced CDI topics such as metadata injection manipulation, portable extension development, and new context creation. In this university we will explore advanced features in CDI on the theoretical and practical sides. We’ll show how to integrate legacy code, how to extend CDI to integrate an existing framework and how to use CDI to create a new powerful framework."
+    speakers:
+        - speaker: "Antoine Sabot-Durand"
+          bio: "IT consultant since 1996, Java developer since 2000 and Senior software Engineer at Red Hat since 2013, Antoine is CDI spec lead and in charge of CDI eco-system development and advocacy. He's also tech lead on Agorava, a CDI framework helping social media consuming. Before that he worked as consultant and architect for a lot of customer in Bank, Insurance, public transport or Automotive. Antoine often fly from his paris home to meet the community by speaking at Devoxx, Java One, or various Jugs. He’s also known to be a serial twitter on this topics. You can follow him on @antoine_sd. When not writing specification, coding, twitting or giving talk, Antoine likes spending time with his wife and 3 children."
+          image: https://pbs.twimg.com/profile_images/378800000734321704/cf336f3627b325e4e72a4c2c724d1670_400x400.jpeg
+          twitter: antoine_sd
+
+    time: 13:30 - 16:30
+    location: Room 5
+    confirmed: true
+
+  - title: "Push Notifications for mobile clients!"
+    speakers:
+    - speaker: Burr Sutter
+      bio: Burr Sutter is a current Sun Java Champion, President of the Atlanta Java Users Group and President of the Atlanta Chapter of the International Association of Software Architects. He has over 15 years of software design and development experience along with numerous published articles, book chapters and developer conference speaking engagements. He is presently employed at JBoss, a division of Red Hat.
+    time: 14:00 - 14:30
+    abstract: "There is a growing demand for backing mobile applications with Java EE 7 containers like WildFly. However, delivering push notifications to various mobile platforms is still cumbersome. The AeroGear UnifiedPush Server is here to help: It is a server that stores device specific metadata and is able to send push notifications to different (mobile) platforms, like Apple's APNs, Google Cloud Messaging or Mozilla's SimplePush. The session shows how to use the AeroGear UnifiedPush Server within a Java EE project for a successful push notification delivery to native (iOS/Android) or hybrid (Apache Cordova) mobile apps!"
+    confirmed: false
+
+  - title:  "30 mins to (geo)satellite search in your Java (EE) apps... 29 mins..."
+    speakers:
+    - speaker: Emmanuel Bernard
+    time: 16:00 - 16:30
+    abstract: "Search is pass&eacute;, we need Foursquare style location and let people search in specific vicinities. And no, you don't have to leave Java or Java EE to do this in a breeze. This session will show you how to boost your existing applications by easily adding full-text search, geolocation search, faceting and even all at the same time! Faceted results return the list of results as well as their count by category - price range, brand, color, etc. This session takes an existing Hibernate ORM based application and adds search services via Hibernate Search live in front of you."
+    location: Room 4
+    confirmed: true
+
+- date: "Wednesday, 13 November"
+  sessions:
+  - title: WildFly 8 - Introduction to Role Based Administration
+    abstract: WildFly, the JBoss Community's new application server project, picks up where the JBoss Application Server 7 project left off. Join us for an introduction to Role-based Administration, one of the key new features in WildFly 8.
+    speakers:
+      - speaker: Dimitris Andreadis
+        bio: Dimitris is the Engineering Manager of the WildFly / JBoss Enterprise Application Server team at Red Hat. He served as the JBoss AS project lead for several years and he has been a JBoss addict and contributor from the early start-up days. He worked previously at Intracom and Motorola in the areas of NMS/OSS, designing reusable frameworks and distributed systems. Dimitris studied computer science at the Technological Educational Institute of Athens and received an M.Sc. by research from University College Dublin, Ireland.
+        image: https://pbs.twimg.com/profile_images/68382358/dimitrisa_400x400.png
+        twitter: dandreadis
+    time: 19:00 - 20:00
+    location: BOF 1
+    confirmed: true
+
+  - title: Provision a Java application, make a code change, git push, PARTY
+    speakers:
+      - speaker: Marek Jelen
+        bio:
+    time: 14:00 - 14:30
+    abstract: Come and see how to deploy your Java application into the cloud in minutes. We shall see how to provision new application on OpenShift and how super-easy it is to deploy your Java project there.
+    confirmed: false
+
+- date: "Thursday, 14 November"
+  sessions:
+  - title: xPaas
+    speakers:
+      - speaker: Mike Piech
+        bio:  Mike Piech is the General Manager of Red Hat's JBoss Middleware division.  Prior to Red Hat, Mike has ran WebLogic's product-line marketing and also worked at EngineYard.
+        image: https://pbs.twimg.com/profile_images/2684067809/9fc149c842eac383dde8432985db23be_400x400.png
+        twitter: mpiech
+    time: 13:00 - 13:30
+    abstract: Follow along as we share the OpenShift PaaS roadmap. See what our newest plans are for continuing to address your business application needs with the speed and efficiency you're looking for.
+    location: Keynote
+    confirmed: true
+
+  - title: Lessons Learned from Real-World Deployments of Java EE 7
+    speakers:
+    - speaker: Arun Gupta
+    abstract: "Java EE 7, released over a year ago, introduced several new technologies such as WebSocket, Batch, and JSON. There are already three compliant application servers: WildFly, GlassFish, and Tmaxsoft. NetBeans, Eclipse, and IntelliJ provide extensive tooling support for the APIs. What are the best practices for building and deploying Java EE 7 applications? What to do and not to do? This session takes three Java EE 7 applications running in production and shares lessons learned from each one. It attempts to answer questions such as Is WebSocket ready for production? How do we migrate from Spring Batch to JSR 352 batch? Any change in DevOps? Are additional libraries still needed? Which is more prominent, EJB/JSF or REST/JavaScript?"
+    time: 17:50 - 18:50
+    location: Room 6
+    confirmed: true
+
+  - title: "Devoxx4Kids : a State of the Union"
+    speakers:
+    - speaker: Arun Gupta
+    abstract: "Devoxx4Kids is a global effort to inspire teenagers and kids in computer programming, robotics, and electronics. This is achieved by delivering workshops on Scratch, Minecraft modding, Java programming, Greenfoot, Raspberry Pi, Arduino, NAO robots, and a variety of other topics. The BOF will provide you with the latest updates on the Devoxx4Kids initiative, we will share experiences and make sure you get all necessary information in order to start, on your side, organizing programming events for children."
+    time: 19:00 - 20:00
+    location: BOF 1
+    confirmed: true
+
+  - title: Practical Advise on IoT and Messaging Protocols
+    abstract: "IoT describes the ability to transfer data over the network with messaging without human-to-human or human-to-computer interaction. To transfer the data, protocols such as MQTT (Message Queue Telemetry Transport) and AMQP (Advanced Message Queuing Protocol) can be used. WebSockets can be used as a standardised way to communicate asynchronously between a web page and a server. The IoT protocols can be used to transfer data over WebSockets. The Machine to Machine (M2M) messages would be handled by a messaging and integration patterns server such as ActiveMQ.<br/>This session will provide an overview of messaging protocols like MQTT and AMQP and how these protocols can be used over WebSocket to transmit data. Design patterns and anti-patterns of different messaging protocols and architecture will be discussed in detail. The session will also show how these protocols were used in a real-life application with a Raspberry Pis cluster. Attendees will learn practical advise on how to configure Raspberry Pi and brokers for an optimised setting."
+    speakers:
+    - speaker: Kenneth Peeples
+      bio: JBoss Technology Evangelist for Red Hat JBoss Middleware for Fuse Service Works and Data Virtualization. Prior Red Hat Architect/Proj­ect Manager in Cloud/Mobile/S­OA with Security Focus for Government Agencies.
+      image: http://www.gravatar.com/avatar/277d74c88d896f4aeb5b43c1e78c0fa7.png
+      twitter: ossmentor
+    time: 21:00 - 22:00
+    location: BOF 2
+    confirmed: true
