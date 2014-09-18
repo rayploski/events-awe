@@ -1,12 +1,8 @@
 !!!
 %html
   %head
-    %title
-      A Simple Preview of #{page.name}
+    %title A Simple Preview of #{page.name}
     %link{ :rel=>'stylesheet', :type=>'text/css', :href=>'/stylesheets/screen.css', :media=>'screen, projection' }
-    /[if lt IE 8]
-      %link{ :rel=>'stylesheet', :type=>'text/css', :href=>'/stylesheets/ie.css', :media=>'screen, projection' }
-      %link{ :rel=>"stylesheet", :type=>"text/css", :href=>"https://static.jboss.org/theme/css/magnolia/stkdefault-styles.css" media="screen, projection"}
   %body.bp
     #container
       ~ content

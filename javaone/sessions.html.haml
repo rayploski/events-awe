@@ -1,0 +1,22 @@
+---
+layout: magnolia
+name: Devoxx BE 2014 Sessions
+---
+-# Begin Speaker Loop
+- site.javaone2014.each do |day|
+  %h2 #{day.date}
+  - day.sessions.each do |session|
+    %h6 #{session.title}
+    %p #{session.abstract}
+    %p
+      - speaker_list = ""
+      - session.speakers.each do |s|
+        -# #{s.speaker}
+        - speaker_list << s.speaker + ", "
+      %strong
+        = speaker_list.chop.chop
+      %br
+      Time: #{session.time}
+      %br
+      Location: #{session.location}
+  %hr

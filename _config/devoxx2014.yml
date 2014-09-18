@@ -111,7 +111,7 @@
 - date: "Wednesday, 13 November"
   sessions:
   - title: WildFly 8 - Introduction to Role Based Administration
-    abstract: WildFly, the JBoss Community's new application server project, picks up where the JBoss Application Server 7 project left off. Join us for an introduction to Role-based Administration, one of the key new features in WildFly 8.
+    abstract: "Come to our annual Devoxx gathering to discuss (over beer) the present and future of the WildFly community project with distinguished members of the WildFly/JBoss Core Development Team!"
     speakers:
       - speaker: Dimitris Andreadis
         bio: Dimitris is the Engineering Manager of the WildFly / JBoss Enterprise Application Server team at Red Hat. He served as the JBoss AS project lead for several years and he has been a JBoss addict and contributor from the early start-up days. He worked previously at Intracom and Motorola in the areas of NMS/OSS, designing reusable frameworks and distributed systems. Dimitris studied computer science at the Technological Educational Institute of Athens and received an M.Sc. by research from University College Dublin, Ireland.
@@ -129,6 +129,14 @@
     abstract: Come and see how to deploy your Java application into the cloud in minutes. We shall see how to provision new application on OpenShift and how super-easy it is to deploy your Java project there.
     confirmed: false
 
+  - title: The Future of Java in the Enterprise
+    abstract: "With Java EE Configuration and CDI 2.0 modularity and flexibility will be one of the key drivers for Java EE 8. Basically these concepts are not breaking new, but a logical consequence resulting from latest evolutions like Cloud Computing and DevOps. In this key note Anatole, Antonio and other experts discuss their personal vision of future Java Enterprise Development."
+    speakers:
+      - speaker: Antoine-Sabot Durand
+    time: 20:00 - 21:00
+    confirmed: true
+    location: BOF 1
+
 - date: "Thursday, 14 November"
   sessions:
   - title: xPaas
@@ -138,7 +146,7 @@
         image: https://pbs.twimg.com/profile_images/2684067809/9fc149c842eac383dde8432985db23be_400x400.png
         twitter: mpiech
     time: 13:00 - 13:30
-    abstract: Follow along as we share the OpenShift PaaS roadmap. See what our newest plans are for continuing to address your business application needs with the speed and efficiency you're looking for.
+    abstract: "For several years we have experienced as consumers how cloud and mobile technologies have changed the way everyday apps are developed and run. But what is the impact on how enterprise apps are developed and run? What does it mean to use a service bus to do integration in/with/for/to the cloud? What is the impact of X as as Service on the way enterprise software is built, deployed, and maintained? In this keynote we take a look at what’s happening today and present some ideas and vision as to what may be the future of enterprise application development."
     location: Keynote
     confirmed: true
 
