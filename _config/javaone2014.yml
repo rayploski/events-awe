@@ -10,6 +10,8 @@
           image: "https://pbs.twimg.com/profile_images/436582986654314497/BWinFmZ0_400x400.jpeg"
           speaker: "S&eacute;bastien Blanc"
           twitter: sebi2706
+          project_twitter: aerogears
+
       time: "8:30 AM - 10:30 AM"
       title: "How to Build Enterprise Mobile Apps That Integrate with Your Java EE Back End [TUT6006]"
     -
@@ -34,6 +36,8 @@
           image: "https://lh6.googleusercontent.com/-gon2JtIuiqI/AAAAAAAAAAI/AAAAAAAAmu8/ejVmjY9FgKY/photo.jpg"
           speaker: "Arun Gupta"
           twitter: arungupta
+          project_twitter: wildflyas
+
       time: "8:30 AM - 10:30 AM"
       title: "Java EE 7 Soup to Nuts [TUT1952]"
     -
@@ -45,6 +49,8 @@
           image: "https://pbs.twimg.com/profile_images/378800000734321704/cf336f3627b325e4e72a4c2c724d1670_400x400.jpeg"
           speaker: "Antoine Sabot-Durand"
           twitter: antoine_sd
+          project_twitter: deltaspiketeam
+
       time: "12:30 PM - 1:30 PM"
       title: "Introducing Contexts and Dependency Injection [CON5004]"
     -
@@ -56,6 +62,8 @@
           image: "https://published-prd.activeevents.com/published/oracleus2014/files/10180/IMG_6178.jpg"
           speaker: "Mark Little"
           twitter: nmcl
+          project_twitter: jbossdeveloper
+
       time: "12:30 PM - 1:30 PM"
       title: "Transactions Returning to NoSQL [CON2129]"
     -
@@ -67,11 +75,12 @@
           image: "https://pbs.twimg.com/profile_images/2397835802/k98uau23r3y4x5u1pmb8_400x400.jpeg"
           speaker: "Mario Torre"
           twitter: neugens
+          project_twitter: openjdk
         -
           bio: "Omair Majid currently works as Software Engineer at Red Hat, where he spends most of his time working on OpenJDK and surrounding tools, including Thermostat and IcedTea-Web (an Open source Web Start and Plugin implementation).<br/>Omair Majid is an Open Source enthusiast and an avid reader. In his spare time, he can be found cradled in a corner, reading a dusty tome."
           image: "http://linuxwarehouse.co.za/sites/linuxwarehouse.co.za/files/styles/node_teaser/public/redhat_400.gif?itok=VBXhre8y"
           speaker: "Omair Majid"
-          twitter: openjdk
+          project_twitter: openjdk
       time: "2:30 PM - 3:30 PM"
       title: "Diagnosing Performance Issues with Thermostat [CON2662]"
     -
@@ -91,11 +100,14 @@
           image: "https://pbs.twimg.com/profile_images/1827851258/IMG_8886_modified_400x400.jpg"
           speaker: "Lincoln Baxter III"
           twitter: lincolnthree
+          project_twitter: jbossforge
         -
           bio: "George Gastaldi is a Senior Software Engineer from Brazil working at RedHat, notably as a core developer for the JBoss Forge project. He is also the leader of Seam 3 Reports and co-leader of Seam 3 JCR module. George works professionally with Java since 2000. In 2006 George joined Apache as an individual committer to work on Apache ServiceMix (An open source JBI-compliant ESB). He is also a JCP individual member and is a member of the CDI 1.1 spec team. He also promotes Java technology by giving speeches in Brazilian conferences, like JUDCon Brazil 2013 and The Developer´s Conference 2012 and 2014."
           image: "https://pbs.twimg.com/profile_images/2392998118/image_400x400.jpg"
           speaker: "George Gastaldi"
           twitter: gegastaldi
+          project_twitter: jbossforge
+
       time: "8:00 PM - 8:45 PM"
       title: "Fast-Developing CRUD-like Applications with Java EE 7 [BOF2695]"
     -
@@ -115,11 +127,14 @@
           image: "https://pbs.twimg.com/profile_images/509763008512286720/4mOPrd6M_400x400.png"
           speaker: "Shekar Gulati"
           twitter: shekhargulati
+          project_twitter: openshift
         -
           bio: "Steve is a Dad, Son, Partner, and PaaS Dust Spreader (aka developer evangelist) with OpenShift. He goes around and shows off all the great work the OpenShift engineers do. He can teach you about PaaS with Java, Python, PostgreSQL MongoDB, and some JavaScript. He has deep subject area expertise in GIS/Spatial, Statistics, and Ecology. He has spoken at over 50 conferences and done over 30 workshops including Monktoberfest, MongoNY, JavaOne, FOSS4G, CTIA, AjaxWorld, GeoWeb, Where2.0, and OSCON. Before OpenShift, Steve was a developer evangelist for LinkedIn, deCarta, and ESRI. Steve has a Ph.D. in Ecology from University of Connecticut. He likes building interesting applications and helping developers create great solutions."
           image: "https://pbs.twimg.com/profile_images/3061441517/fc8e534ab8312c3ffed45ff8b2991d79_400x400.jpeg"
           speaker: "Steven Citron-Pousty"
           twitter: TheSteve0
+          project_twitter: openshift
+
       time: "8:00 PM - 8:45 PM"
       title: "So Many Mapping Choices—So Much Fun! [BOF1693]"
 -
@@ -138,10 +153,7 @@
       location: "Parc 55 - Mission"
       speakers:
         -
-          bio: "Markus is a Developer Advocate at Red Hat and focuses on JBoss Middleware. He is working with Java EE servers from different vendors since more than 14 years and talks about his favorite topics around Java EE on conferences all over the world. He has been a principle consultant and worked with different customers on all kinds of Java EE related applications and solutions. Beside that he has always been a prolific blogger, writer and tech editor for different Java EE related books. He is an active member of the German DOAG e.V. and it's representative on the iJUG e.V. As a Java Champion and former ACE Director he is well known in the community."
-          image: "https://pbs.twimg.com/profile_images/479559574622445568/0v5qlAwq_400x400.jpeg"
           speaker: "Markus Eisele"
-          twitter: myfear
       time: "11:00 AM - 12:00 PM"
       title: "JavaScript in the Enterprise [CON1747]"
     -
@@ -157,10 +169,7 @@
       location: "Parc 55 - Cyril Magnin II/III"
       speakers:
         -
-          bio: "IT consultant since 1996, Java developer since 2000 and Senior software Engineer at Red Hat since 2013, Antoine is CDI spec lead and in charge of CDI eco-system development and advocacy. He's also tech lead on Agorava, a CDI framework helping social media consuming. Before that he worked as consultant and architect for a lot of customer in Bank, Insurance, public transport or Automotive. Antoine often fly from his paris home to meet the community by speaking at Devoxx, Java One, or various Jugs. He’s also known to be a serial twitter on this topics. You can follow him on @antoine_sd. When not writing specification, coding, twitting or giving talk, Antoine likes spending time with his wife and 3 children."
-          image: "https://pbs.twimg.com/profile_images/378800000734321704/cf336f3627b325e4e72a4c2c724d1670_400x400.jpeg"
           speaker: "Antoine Sabot-Durand"
-          twitter: antoine_sd
       time: "11:00 AM - 12:00 PM"
       title: "The Path to CDI 2.0 [CON4294]"
     -
@@ -177,10 +186,7 @@
       location: "Parc 55 - Cyril Magnin I"
       speakers:
         -
-          bio: "Arun Gupta is Director of Developer Advocacy at Red Hat and focuses on JBoss Middleware. A founding member of the Java EE team at Sun Microsystems, he led a cross-functional team at Oracle to drive the global launch of the Java EE 7 platform through strategy, planning, and execution of content, marketing campaigns, and program. Arun has extensive speaking experience in ~40 countries on myriad topics and is a JavaOne Rockstar. He also founded the Devoxx4Kids chapter in the USA and continues to promoting technology education amongst kids. An author of a best-selling book, an avid runner, a globe trotter, a Java Champion, JUG leader, he is easily accessible at @arungupta."
-          image: "https://lh6.googleusercontent.com/-gon2JtIuiqI/AAAAAAAAAAI/AAAAAAAAmu8/ejVmjY9FgKY/photo.jpg"
           speaker: "Arun Gupta"
-          twitter: arungupta
       time: "12:30 PM - 1:30 PM"
       title: "Lessons Learned from Real-World Deployments of Java EE 7 [CON2450]"
     -
@@ -192,6 +198,8 @@
           image: "https://published-prd.activeevents.com/published/oracleus2014/files/5090/profile_picture.jpeg"
           speaker: "Charles Nutter"
           twitter: headius
+          project_twitter: jruby
+
       time: "12:30 PM - 1:30 PM"
       title: "Going Native: Bringing FFI to the JVM [CON3979]"
     -
@@ -202,7 +210,7 @@
           bio: "From deep into the Nice mountains, Stephane works for Red Hat on the Ceylon project.<br/>Passionate hacker in Java, C, Perl or Scheme. A web standards and database enthusiast, he implemented among other things a WYSIWYG XML editor, a multi-threading library in C, a mobile-agent language in Scheme (compiler and virtual machines), and some Web 2.0 RESTful services and rich web interfaces with JavaScript and HTML 5.<br/>Eager to share, he is a frequent speaker at various conferences such as the Scheme Workshop 2004, Nice Technical University in 2008, Polytech'Nice en 2009, Mars JUG, Paris JUG and Riviera Java User Group he founded with Nicolas Leroux. A long-time open-source user and advocate, he is committer on RESTEasy, author of jax-doclets, stamps.js and various Play! Framework modules, and developper on various Ceylon projects for Red Hat."
           image: "https://published-prd.activeevents.com/published/oracleus2014/files/13366/StephaneEpardaud.jpg"
           speaker: "Stephane Epardaud"
-          twitter: ceylonlang
+          project_twitter: ceylonlang
       time: "4:00 - 5:00"
       title: "Ceylon from Here to Infinity: The Big Picture and What’s Coming [CON3078]"
     -
@@ -213,7 +221,7 @@
           bio: "Aslak is the Arquillian Project Lead, Senior Software Engineer at Red Hat.  Aslak lives in Oslo, Norway."
           image: "https://published-prd.activeevents.com/published/oracleus2014/files/13565/aslak_profile_100x125.jpg"
           speaker: "Aslak Knutsen"
-          twitter: arquillian
+          project_twitter: arquillian
       time: "6:00 PM - 6:45 PM"
       title: "Integration Testing for Java Apps on Oracle WebLogic Server 12c Done Right [BOF9309]"
     -
@@ -233,6 +241,8 @@
           image: "https://published-prd.activeevents.com/published/oracleus2014/files/2580/me_thirsty_small.jpg"
           speaker: "Tom Enebo"
           twitter: tom_enebo
+          project_twitter: jruby
+
       time: "7:00 PM - 7:45 PM"
       title: "Modding Minecraft with a Dash of Ruby [BOF6279]"
     -
@@ -252,11 +262,15 @@
           image: "https://pbs.twimg.com/profile_images/1565846161/profile_400x400.jpg"
           speaker: "Christian Sadilek"
           twitter: csadilek
+          project_twitter: jbosserrai
+
         -
           bio: "Jonathan Fuerth is a Senior Engineer at JBoss by Red Hat and a core member of the UberFire and Errai teams. In his spare time, you will find Jonathan co-leading the Toronto Java Users Group (tjug.ca), brewing beer in his backyard and playing with the latest and greatest stuff in the Java ecosystem."
           image: "https://pbs.twimg.com/profile_images/1114561586/downloadfile-1-1_400x400.jpg"
           speaker: "Jonathan Fuerth"
           twitter: jfuerth
+          project_twitter: jbosserrai
+
       time: "8:00 PM - 8:45 PM"
       title: "The Large-Scale Web Application Development BOF [BOF2260]"
     -
@@ -279,6 +293,8 @@
           image: "https://pbs.twimg.com/profile_images/509168347502501889/LExG2kZz_400x400.png"
           speaker: "Bruno Oliveira"
           twitter: abstractj
+          project_twitter: aerogears
+
       time: "9:00 PM - 9:45 PM"
       title: "Mobile Security B-Sides, or the Pitfalls of Application Development [BOF4495]"
     -
@@ -290,10 +306,14 @@
           image: "https://pbs.twimg.com/profile_images/1274163429/mircea.markus_400x400.jpg"
           speaker: "Mircea Markus"
           twitter: mirceamarkus
+          project_twitter: infinispan
+
       time: "9:00 PM - 9:45 PM"
       title: "JSR 347 Reboot: An Update on a Standard Data Grid API for Java [BOF6203]"
 -
   date:
+    "Wednesday, October 1"
+  sessions:
     -
       abstract: "Scripting languages that are emerging and not yet mainstream vie with each other to stake a claim that they have the potential to become mainstream and be regarded as big-league. Don’t miss this panel discussion, in which these emerging languages are portrayed by their respective champions, who explain how they may help your everyday life as a Java developer. To present a complete picture, the session includes some languages that may not run on the JVM. Afterward you will have a better grasp of the emerging languages and the ecosystem. One or more of the languages may catch your fancy for doing development alongside Java."
       location: "Hilton - Continental Ballroom 7/8/9"
@@ -302,7 +322,7 @@
           bio: "From deep into the Nice mountains, Stephane works for Red Hat on the Ceylon project.<br/>Passionate hacker in Java, C, Perl or Scheme. A web standards and database enthusiast, he implemented among other things a WYSIWYG XML editor, a multi-threading library in C, a mobile-agent language in Scheme (compiler and virtual machines), and some Web 2.0 RESTful services and rich web interfaces with JavaScript and HTML 5.<br/>Eager to share, he is a frequent speaker at various conferences such as the Scheme Workshop 2004, Nice Technical University in 2008, Polytech'Nice en 2009, Mars JUG, Paris JUG and Riviera Java User Group he founded with Nicolas Leroux. A long-time open-source user and advocate, he is committer on RESTEasy, author of jax-doclets, stamps.js and various Play! Framework modules, and developper on various Ceylon projects for Red Hat."
           image: "https://published-prd.activeevents.com/published/oracleus2014/files/13366/StephaneEpardaud.jpg"
           speaker: "Stephane Epardaud"
-          twitter: ceylonlang
+          project_twitter: ceylonlang
         -
           speaker: "Charles Nutter"
       time: "3:00 PM - 4:00 PM"
@@ -316,6 +336,7 @@
           image: "https://published-prd.activeevents.com/published/oracleus2014/files/8351/EmmanuelBernard201011.JPG"
           speaker: "Emmanuel Bernard"
           twitter: emmanuelbernard
+
       time: "11:30 AM - 12:30 PM"
       title: "MythBusters: ORMs and NoSQL—Good or Bad? [CON5186]"
 -
@@ -326,15 +347,9 @@
       location: "Hilton - Yosemite A"
       speakers:
         -
-          bio: "Creator of PrettyFaces - Url Rewriting for JSF, PrettyTime - Social-style date & time formatting for Java, and a community contributor to the JSF2 Expert Group; his latest project is ScrumShark, an open-source agile project management tool.<br/>Beginning his career in C, C++ development for hardware signal testing automation, Lincoln soon moved on to Perl, dynamic programming languages, artificial intelligence and, more recently - web application frameworks such as Java Server Faces and Groovy on Grails for financial and small business solutions.<br/>When he is not swimming, running, or playing Ultimate Frisbee, Lincoln is focused on improving the openness of Java, the Java Community Process(JCP), and bringing the J2EE platform to small businesses and freelancers."
-          image: "https://pbs.twimg.com/profile_images/1827851258/IMG_8886_modified_400x400.jpg"
           speaker: "Lincoln Baxter III"
-          twitter: lincolnthree
         -
-          bio: "George Gastaldi is a Senior Software Engineer from Brazil working at RedHat, notably as a core developer for the JBoss Forge project. He is also the leader of Seam 3 Reports and co-leader of Seam 3 JCR module. George works professionally with Java since 2000. In 2006 George joined Apache as an individual committer to work on Apache ServiceMix (An open source JBI-compliant ESB). He is also a JCP individual member and is a member of the CDI 1.1 spec team. He also promotes Java technology by giving speeches in Brazilian conferences, like JUDCon Brazil 2013 and The Developer´s Conference 2012 and 2014."
-          image: "https://pbs.twimg.com/profile_images/2392998118/image_400x400.jpg"
           speaker: "George Gastaldi"
-          twitter: gegastaldi
       time: "11:30 AM - 12:30 PM"
       title: "Tools Worth Sharing: Take Back Your IDE with Forge [CON2675]"
     -
@@ -344,6 +359,10 @@
         -
           bio: "Tim has been doing software engineering for almost 18 years, and has spent the last 9 years exclusively working in open source.<br/>Tim is employed by Red Hat where he is the creator and project lead for Vert.x - the reactive, polyglot application platform.<br/>Before creating Vert.x he spent several years leading messaging development at JBoss – in particular creating the HornetQ messaging system, which is at the heart of Wildfly (previously known as JBoss Application Server) and JBoss Enterprise Application Platform.<br/>Tim also worked for a while with RabbitMQ at SpringSource, and was also one of the original core developers of the Mobicents telecommunication platform.<br/>Tim lives in Somerset, UK with his family."
           speaker: "Tim Fox"
+          twitter: timfox
+          image: https://pbs.twimg.com/profile_images/458682441893281792/fZ5tp7kF_400x400.jpeg
+          project_twitter: vertx_project
+
       time: "11:30 AM - 12:30 PM"
       title: "Writing Highly Concurrent Polyglot Applications with Vert.x [CON7902]"
     -

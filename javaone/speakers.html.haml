@@ -8,13 +8,20 @@ name: Devoxx BE 2014 Speakers
     - session.speakers.each do |s|
       - if "#{s.bio}" != "{}"
         %h3 #{s.speaker}
-        %img{:src=>"#{s.image}", :style=>"float:left; margin-right: 10px;height:73px;width:73px;"}
+        - if "#{s.image}" != "{}"
+          %img{:src=>"#{s.image}", :style=>"float:left; margin-right: 10px;height:73px;width:73px;"}
         %p #{s.bio}
         %div{:style=>"clear:both;"}
-        %p
-          %a.twitter-follow-button{:href=>"https://twitter.com/#{s.twitter}"}Follow #{s.twitter}
-          :javascript
-            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+        - if "#{s.twitter}" != "{}"
+          %p
+            %a.twitter-follow-button{:href=>"https://twitter.com/#{s.twitter}"}Follow #{s.twitter}
+            :javascript
+              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+        - if "#{s.project_twitter}" != "{}"
+          %p
+            %a.twitter-follow-button{:href=>"https://twitter.com/#{s.project_twitter}"}Follow #{s.project_twitter}
+            :javascript
+              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
         %br
         %hr
         %br
